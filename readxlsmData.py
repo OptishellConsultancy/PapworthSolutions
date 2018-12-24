@@ -18,7 +18,7 @@ class ReadData(object):
                 self.Data.append([])                   
                 for cell in row:       
                     self.Data[RowsAddedCount].append(cell._value)
-                    print("Added value: {} ".format(cell._value))        
+                    #print("Added value: {} ".format(cell._value))        
                 RowsAddedCount += 1
             RowIndex += 1
             #
